@@ -1,6 +1,6 @@
 # all txt file
-*.txt
 /lib
 ! test.txt
-/less.js-2.0.0
+less.js-2.0.0/
+less.min.js
 css.css

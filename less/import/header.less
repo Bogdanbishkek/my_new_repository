@@ -1,5 +1,4 @@
-@import "includeless";
-body{background-color: black; color: white}
+body {color: red}
 header {
   background-color: pink;
   &-wrap{
@@ -12,11 +11,14 @@ header {
       font-size: 2rem;
     }
   }
+  &-box{
+    .inline-block;
+    width: 200px;
+  }
   .nav{
     margin-bottom: 20px;
     li{
-      display: inline-block;
-      vertical-align: top;
+      .inline-block;
       a{
         display: block;
         height: 100%;

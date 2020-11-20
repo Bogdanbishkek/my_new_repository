@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet/less" href="style.less" />
+	<link rel="stylesheet" href="less/general.less" />
 	
-	<script src="less.js-2.0.0\dist\less.min.js"></script>
+	
+	<script src="less.min.js"></script>
 	<title></title>
 
 	
