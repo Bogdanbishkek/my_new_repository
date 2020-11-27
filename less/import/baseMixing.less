@@ -1,0 +1,25 @@
+#border(@w,@color,@style: solid){
+  border-width: @w;
+  border-style: @style;
+  border-color: @color;
+}
+
+.icon(@url){
+  display: inline-block;
+  vertical-align: middle;
+  width: @iconW;
+  height: @iconH;
+  background: url("@{pathToIcon}@{url}.png") no-repeat center;
+}
+
+.fontSize(@size) when (isnumber(@size)){
+  font-size: ~"@{size}em";
+}
+
+.hSize(@size, @step: 3,@count:0) when (@count < 6){
+  @number: @count+1;
+  h@{number}{
+    font-size: @size - (@count*@step);
+  }
+  .hSize(@size, @step,@count+1);
+}
