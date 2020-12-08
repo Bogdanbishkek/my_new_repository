@@ -1,0 +1,58 @@
+header {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 100px;
+  background: url('email') no-repeat center;
+  border-width: 1px;
+  border-style: red;
+  border-color: solid;
+  background-color: pink;
+}
+header ul {
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+}
+header a {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: blue;
+}
+header-wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+header-title {
+  border-bottom: 2px solid red;
+}
+header-title h1 {
+  font-size: 2rem;
+}
+header-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+header .nav {
+  margin-bottom: 20px;
+}
+header .nav li {
+  display: inline-block;
+  vertical-align: top;
+}
+header .nav li a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+body {
+  background-color: #ffc2ee;
+}
+box {
+  margin: 10px 5px;
+}
