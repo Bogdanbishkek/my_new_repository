@@ -123,5 +123,74 @@ table {
   border-spacing: 0;
 }
 body {
+  background: url("../pictures/background/background-body.png") repeat ;
+  font-family: "Oswald-Regular";
+}
+.container {
+  border: 1px solid red;
+  width: 960px;
+  margin: 0 auto;
+}
+.footer {
+  width: 100%;
+  height: 110px;
+  border: 0.5px solid red;
+}
+.header {
+  padding-top: 23px;
+}
+.header-clearFix::after {
+  content: '';
+  display: block;
+  clear: both;
+  margin-bottom: 23px;
+}
+.header-clearFix {
+  border: 0px solid red;
+}
+.header-clearFix-logo {
+  float: left;
+  width: 163px;
+  height: 41px;
+  background: url("../pictures/logo/logo.png") no-repeat ;
+}
+.header-clearFix-search {
+  float: right;
+  font-size: 0;
+}
+.header-clearFix-search input {
+  vertical-align: top;
+  padding: 9px;
+  font-family: "Tahoma-Regular";
+  font-size: 12px;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+  background-color: #f3f3f3;
+}
+.header-clearFix-search button {
+  font-family: "Tahoma-Regular";
+  background-color: #29c5e6;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  line-height: 32px;
+  border: none;
+  height: 37.5px;
+  width: 42px;
+}
+@font-face {
+  font-family: "Oswald-Light";
+  src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: "Tahoma-Regular";
+  src: url(../fonts/Oswald-Light.ttf);
+}
+#upper {
   background-color: #7e7e7e;
+  height: 5px;
 }

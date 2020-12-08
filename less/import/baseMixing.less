@@ -4,12 +4,9 @@
   border-color: @color;
 }
 
-.icon(@url){
-  display: inline-block;
-  vertical-align: middle;
-  width: @iconW;
-  height: @iconH;
-  background: url("@{pathToIcon}@{url}.png") no-repeat center;
+
+.icon(@url, @repeat: no-repeat, @positon: ""){
+  background: url("@{pathToIcon}@{url}.png") ~"@{repeat}" ~"@{positon}";
 }
 
 .fontSize(@size) when (isnumber(@size)){

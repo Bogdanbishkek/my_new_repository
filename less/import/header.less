@@ -1,0 +1,50 @@
+.header{
+  padding-top: 23px;
+
+  &-clearFix::after{
+    content: '';
+    display: block;
+    clear: both;
+    margin-bottom:  23px;
+  }
+
+  &-clearFix{
+
+    border: 0px solid red;
+
+    &-logo{
+      float: left;
+      width: 163px;
+      height: 41px;
+      .icon("logo/logo");
+    }
+
+    &-search{
+      float: right;
+      font-size: 0;
+      input {
+        vertical-align: top;
+        padding: 9px;
+        font-family: "Tahoma-Regular";
+        font-size: 12px;
+        border: 1px solid #e7e7e7;
+        border-right: none;
+        background-color: #f3f3f3;
+      }
+
+      button{
+        font-family: "Tahoma-Regular";
+        background-color: #29c5e6;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        line-height: 32px;
+        border: none;
+        height: 37.5px;
+        width: 42px;
+      }
+
+    }
+  }
+
+}
